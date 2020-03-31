@@ -3,13 +3,23 @@
 #f0f0c9 Eggshell
 #ff5714 Orioles Orange
 #683257 Halayà Úbe
-#581908 French Puce */
+#581908 French Puce
+#d62828 Amaranth Red*/
 
 
 /* Global styles
 -------------------------*/
 body {
   color: #343434;
+}
+a {
+  color: #d62828
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: 1px solid #d88a15;
 }
 
 img {
@@ -28,11 +38,26 @@ header {
 .projects {
   background: #f0f0c9;
 }
+.projects .btn{
+  color: #f0f0c9;
+  background: #ff5714;
+  padding: 8px;
+  border-radius: 4px;
+}
+.projects .btn:hover{
+  background: rgba(255,87,20,.80);
+}
 
 /* Work Experience
 -------------------------*/
 .work {
   background: #ff5714;
+}
+.work a {
+  color: #f0f0c9;
+}
+.work a:focus {
+  outline: 1px solid #f0f0c9;
 }
 
 /* Education
