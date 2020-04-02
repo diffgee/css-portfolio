@@ -40,7 +40,8 @@ img {
 h1{
   font-family: 'Nanum Pen Script', cursive;
   font-size: 8rem;
-  margin: 0;  
+  margin: 0;
+  font-weight: normal;  
 }
 h2 {
   margin: 0;
