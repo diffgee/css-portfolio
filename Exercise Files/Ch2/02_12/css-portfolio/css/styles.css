@@ -4,7 +4,8 @@
 #ff5714 Orioles Orange
 #683257 Halayà Úbe
 #581908 French Puce
-#d62828 Amaranth Red*/
+#d62828 Amaranth Red
+#003049 Prussian Blue*/
 
 
 
@@ -81,8 +82,8 @@ header {
 /* Work Experience
 -------------------------*/
 .work {
-  background: #ff5714;
-  /* background: #d62828; */
+  /* background: #ff5714; */
+  background: #003049;
   color: #f0f0c9;
 }
 .work a {
