@@ -10,7 +10,8 @@
 
 /* font-family: 'Sen', sans-serif;
 
-font-family: 'Lato', sans-serif; */
+font-family: 'Lato', sans-serif; 
+font-family: 'Nanum Pen Script', cursive;*/
 
 
 
@@ -37,8 +38,9 @@ img {
   width: 300px;
 }
 h1{
-  font-family: 'Sen', sans-serif;
-  font-size: 3rem;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 8rem;
+  margin: 0;  
 }
 h2 {
   margin: 0;
