@@ -1,0 +1,125 @@
+/* COLOR PALLETTE
+#2e0e02 Zinnwaldite Brown
+#f0f0c9 Eggshell
+#ff5714 Orioles Orange
+#683257 Halayà Úbe
+#581908 French Puce
+#d62828 Amaranth Red
+#003049 Prussian Blue*/
+
+
+
+/* font-family: 'Sen', sans-serif;
+
+font-family: 'Lato', sans-serif; 
+font-family: 'Nanum Pen Script', cursive;*/
+
+
+
+/* Global styles
+-------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+}
+p {
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+a {
+  color: #d62828
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: 1px solid #d88a15;
+}
+
+img {
+  width: 300px;
+}
+h1{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 8.2rem;
+  margin: 0;
+  font-weight: normal;  
+}
+h2 {
+  margin: 0 0 10px;
+  font-family: 'Sen', sans-serif;
+  font-size: 2rem;
+}
+h3 {
+  margin: 30px 0 10px;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+/* Profile
+-------------------------*/
+header {
+  color: #f0f0c9;
+  background: #581908;
+}
+
+
+/* Projects
+-------------------------*/
+.projects {
+  background: #f0f0c9;
+}
+.projects .btn{
+  color: #f0f0c9;
+  background: #d62828;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover{
+  background: rgba(255,87,20,.80);
+}
+
+/* Work Experience
+-------------------------*/
+.work {
+  /* background: #ff5714; */
+  background: #003049;
+  color: #f0f0c9;
+}
+.work a {
+  color: #f0f0c9;
+}
+.work a:focus {
+  outline: 1px solid #f0f0c9;
+}
+
+/* Education
+-------------------------*/
+.education{
+  background: url(../../../../images/books.jpg);
+  height: 400px;
+}
+.education h3 {
+  margin: 20px 0 10px;
+}
+
+/* Contact Info
+-------------------------*/
+footer {
+  color: #f0f0c9;
+  background: #2e0e02;
+}
