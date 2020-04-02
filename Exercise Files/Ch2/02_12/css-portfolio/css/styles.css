@@ -95,6 +95,10 @@ header {
 
 /* Education
 -------------------------*/
+.education{
+  background: url(../../../../images/books.jpg);
+  height: 400px;
+}
 
 /* Contact Info
 -------------------------*/
